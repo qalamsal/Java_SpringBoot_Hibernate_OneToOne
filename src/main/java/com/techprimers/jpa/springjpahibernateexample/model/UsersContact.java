@@ -3,7 +3,7 @@ package com.techprimers.jpa.springjpahibernateexample.model;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "users_contact", catalog = "test")
+@Table(name = "users_contact", catalog = "dbtest")
 public class UsersContact {
 
     @Id
